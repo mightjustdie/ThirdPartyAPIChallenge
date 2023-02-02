@@ -4,11 +4,7 @@
 $(function () {
   // I first want to be able to tell what the current hour and day is.
   var currentHour = dayjs().hour();
-  // Log the current hour
-  console.log (currentHour);
   var today = dayjs();
-  // Log the current date to confirm that it works.
-  console.log(today.format('MM/DD/YYYY'));
   // Add a listener for click events on the save button. 
   
   // This code should use the id in the containing time-block as a key 
