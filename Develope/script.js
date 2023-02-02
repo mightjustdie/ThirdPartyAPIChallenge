@@ -6,7 +6,7 @@ $(function () {
   var currentHour = dayjs().hour();
   var today = dayjs();
   // Add a listener for click events on the save button. 
-  
+  $(".saveBtn").click();
   // This code should use the id in the containing time-block as a key 
   // to save the user input in local storage.
 
