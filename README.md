@@ -3,5 +3,6 @@ In this challenge I was tasked to create a simple calendar application that allo
 Work In Progress(W.I.P)
 
 Deployed App:
+https://mightjustdie.github.io/ThirdPartyAPIChallenge/
 
 Screenshot of deployed app:
