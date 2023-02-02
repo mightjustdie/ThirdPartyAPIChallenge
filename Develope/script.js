@@ -7,8 +7,8 @@ $(function () {
   var today = dayjs();
   // Add a listener for click events on the save button. 
   $(".saveBtn").click(function () {
-    var blocksHour = ;
-    var textboxContent = ;
+    var blocksHour = $;
+    var textboxContent = $ ;
     localStorage.setItem(blocksHour, textboxContent);
   });
   // This code should use the id in the containing time-block as a key 
