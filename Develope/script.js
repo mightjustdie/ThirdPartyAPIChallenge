@@ -2,6 +2,13 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function () {
+  // I first want to be able to tell what the current hour and day is.
+  var currentHour = dayjs().hour();
+  // Log the current hour
+  console.log (currentHour);
+  var today = dayjs();
+  // Log the current date to confirm that it works.
+  console.log(today.format('MM/DD/YYYY'));
   // Add a listener for click events on the save button. 
   
   // This code should use the id in the containing time-block as a key 
@@ -19,7 +26,7 @@ $(function () {
 
   // How might the id be useful when saving the description in local storage?
 
-  //  it allows you to associate the description with a specific hour of the day. 
+  //  It allows you to associate the description with a specific hour of the day. 
   //  When you save the description, you can use the id as the key in local storage,
   //  so that you can retrieve it later when the page is reloaded.
 
@@ -37,7 +44,7 @@ $(function () {
   // HINT: How can the id attribute of each time-block be used to do this?
   
   //
-  
+
   // TODO: Add code to display the current date in the header of the page.
 
 });
