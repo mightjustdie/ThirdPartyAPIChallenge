@@ -6,3 +6,4 @@ Deployed App:
 https://mightjustdie.github.io/ThirdPartyAPIChallenge/
 
 Screenshot of deployed app:
+![mightjustdie github io_ThirdPartyAPIChallenge_](https://user-images.githubusercontent.com/102053940/216222409-2daacd0e-e80c-424c-a768-eb90490dc2f8.png)
